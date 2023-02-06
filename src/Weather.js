@@ -4,11 +4,15 @@ import axios from "axios";
 
 export default function Weather() {
 	const [ready, setReady] = useState(false);
-	const [temperature, setTemperature] = useState(null);
+	const [weatherData, setWeatherData] = useState({});
 
 	function handleResponse(response) {
 		console.log(response.data);
-		setTemperature(response.data.main.temp);
+		setWeatherData({
+			temperature: response.data.main.temp,
+			wind: 12,
+			city: response.data.city,
+		});
 		setReady(true);
 	}
 
@@ -33,7 +37,7 @@ export default function Weather() {
 						</div>
 					</div>
 				</form>
-				<h1>New York</h1>
+				<h1>{weatherData.city} </h1>
 				<ul>
 					<li>Wednesday 07:00</li>
 					<li>Mostly Cloudy</li>
@@ -44,13 +48,13 @@ export default function Weather() {
 							src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
 							alt="Mostly Cloudy"
 						/>{" "}
-						<span className="unit">{Math.round(temperature)} °C</span>
+						<span className="unit">{Math.round(weatherData.temp)} °C</span>
 					</div>
 					<div className="col-6">
 						<ul>
 							<li>Precipitaion: 15%</li>
 							<li>Humidity: 72%</li>
-							<li>Wind: 13km/h</li>
+							<li>Wind:{weatherData.wind} km/h</li>
 						</ul>
 					</div>
 				</div>
