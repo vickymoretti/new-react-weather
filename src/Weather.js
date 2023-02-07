@@ -29,6 +29,7 @@ export default function Weather(props) {
 
 	function handleSubmit(event) {
 		event.preventDefault();
+		alert(city);
 		search();
 	}
 
@@ -46,6 +47,7 @@ export default function Weather(props) {
 								type="search"
 								placeholder="Search city.."
 								className="form-control"
+								onChange={handleCityChange}
 							/>
 						</div>
 						<div className="col-3">
@@ -53,7 +55,6 @@ export default function Weather(props) {
 								type="submit"
 								value="Search"
 								className=" btn btn-primary"
-								onChange={handleCityChange}
 							/>
 						</div>
 					</div>
