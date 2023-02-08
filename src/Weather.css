@@ -25,7 +25,7 @@
 	line-height: 19px;
 }
 
-.Weather .unit {
+.Weather .temperature {
 	color: rgb(33, 33, 33);
 	font-size: 56px;
 	font-weight: 400;
@@ -41,6 +41,6 @@
 	display: inline-block;
 }
 
-.Weather .celsius-Faherenheit {
+.Weather .unit {
 	color: rgb(33, 33, 33);
 }
