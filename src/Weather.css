@@ -40,3 +40,7 @@
 	margin-right: 10px;
 	display: inline-block;
 }
+
+.Weather .celsius-Faherenheit {
+	color: rgb(33, 33, 33);
+}
