@@ -44,3 +44,8 @@
 .Weather .unit {
 	color: rgb(33, 33, 33);
 }
+
+.WeatherTemperature {
+	display: flex;
+	align-items: flex-start;
+}
