@@ -11,10 +11,21 @@ export default function App() {
 			</div>
 			<footer className="footer">
 				This project was coded by{" "}
-				<a href="https://www.linkedin.com/in/victoria-moretti-934a2325a/">
+				<a
+					href="https://www.linkedin.com/in/victoria-moretti-934a2325a/"
+					target="_blank"
+					rel="noreferrer"
+				>
 					Victoria Moretti
 				</a>{" "}
-				and is <a href="https://github.com/vickymoretti">Open-source</a>
+				and is{" "}
+				<a
+					href="https://github.com/vickymoretti"
+					target="_blank"
+					rel="noreferrer"
+				>
+					Open-source
+				</a>
 			</footer>
 		</div>
 	);
