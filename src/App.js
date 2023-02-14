@@ -8,7 +8,7 @@ export default function App() {
 		<div className="App">
 			<h1 className="header">
 				{" "}
-				<span className="font-ligther">Weather</span> Forecast
+				<span className="font-weight-lighter">Weather</span> Forecast
 			</h1>
 			<div className="container">
 				{" "}

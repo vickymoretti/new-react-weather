@@ -3,13 +3,6 @@
 	--main-border-radius: 25px;
 }
 
-.Weather {
-	border-radius: var(--main-border-radius);
-	padding: 16px;
-	margin: 30px;
-	background-color: #222831;
-}
-
 .Weather h2 {
 	color: var(--main-text-color);
 	font-size: 24px;

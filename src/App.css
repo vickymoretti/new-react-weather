@@ -8,3 +8,12 @@
 .font-ligther {
 	font-weight: lighter;
 }
+.container {
+	border-radius: var(--main-border-radius);
+	padding: 16px;
+	margin: 0 auto;
+	background-color: #222831;
+	width: 85%;
+	max-width: 675px;
+	min-height: 300px;
+}
