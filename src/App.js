@@ -1,10 +1,15 @@
 import React from "react";
 import "./App.css";
 import Weather from "./Weather";
+import "./Weather.css";
 
 export default function App() {
 	return (
 		<div className="App">
+			<h1 className="header">
+				{" "}
+				<span className="font-ligther">Weather</span> Forecast
+			</h1>
 			<div className="container">
 				{" "}
 				<Weather defaultCity="New York" />

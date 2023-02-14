@@ -3,6 +3,7 @@ import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import "./index.css";
 
 export default function Weather(props) {
 	const [weatherData, setWeatherData] = useState({ ready: false });
@@ -53,11 +54,7 @@ export default function Weather(props) {
 							/>
 						</div>
 						<div className="col-3">
-							<input
-								type="submit"
-								value="Search"
-								className=" btn btn-primary"
-							/>
+							<input type="submit" value="SEARCH" className="search-button" />
 						</div>
 					</div>
 				</form>
