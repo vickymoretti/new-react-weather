@@ -20,6 +20,7 @@ export default function App() {
 					href="https://www.linkedin.com/in/victoria-moretti-934a2325a/"
 					target="_blank"
 					rel="noreferrer"
+					className="footer-link"
 				>
 					Victoria Moretti
 				</a>{" "}
@@ -28,6 +29,7 @@ export default function App() {
 					href="https://github.com/vickymoretti"
 					target="_blank"
 					rel="noreferrer"
+					className="footer-link"
 				>
 					Open-source
 				</a>

@@ -3,6 +3,16 @@
 	color: #fdfdfd;
 	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
+	margin-top: 16px;
+}
+
+footer .footer-link {
+	text-decoration: none;
+	color: #8b8e93;
+}
+
+footer .footer-link:hover {
+	color: #6cd2f0;
 }
 
 .font-ligther {

@@ -2,3 +2,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #343d4b;
 }
+
+.columns {
+	text-align: center;
+}

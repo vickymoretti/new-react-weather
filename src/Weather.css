@@ -24,7 +24,7 @@
 }
 
 .Weather .temperature {
-	color: rgb(33, 33, 33);
+	color: var(--main-text-color);
 	font-size: 56px;
 	font-weight: 400;
 	position: relative;
@@ -38,7 +38,7 @@
 }
 
 .Weather .unit {
-	color: rgb(33, 33, 33);
+	color: var(--main-text-color);
 }
 
 .WeatherTemperature {
@@ -75,4 +75,9 @@
 
 .form-control {
 	border-radius: var(--main-border-radius);
+}
+
+.WeatherForecastDay {
+	color: var(--main-text-color);
+	margin: 20px 0 14px 0;
 }
